@@ -1,0 +1,242 @@
+html { height: 100%; }
+body {
+  height: 100%;
+  background: #000 url("../img/blackorchid.png") repeat;
+  color: #383838;
+  font-family: "Open Sans", "Helvetica Neue", "Verdana";
+  font-size: 13px;
+}
+
+h2 { margin-top: -5px; text-shadow: 1px 1px 1px #fff; }
+h3 { margin-top: -5px; text-shadow: 1px 1px 1px #fff; }
+h4 { text-shadow: 1px 1px 1px #fff; }
+h5 { text-shadow: 1px 1px 1px #fff; }
+
+.container { max-width: 1040px; padding: 0; }
+
+/* 1. Header
+-------------------------------------------------- */
+.header { background: #ccc url('../img/headerbg.png') repeat-x; height: 210px; }
+
+.yourlogo {
+  color: #f2f2f2;
+  font-size: 64px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  line-height: 0px;
+  border: 0;
+  margin-left: 5%;
+}
+
+.yourlogo h1 { margin-top: 65px; font-size: 64px; color: #EDF7FF; }
+.yourlogo a { color: #EDF7FF; }
+.yourlogo a:hover { color: #fff; text-decoration: none; }
+
+.yourlogo small {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 4;
+  color: #D9D9D9;
+}
+
+.menu {
+  background: #45596c url('../img/menubg.png') repeat-x;
+  height: 47px;
+  padding-top: 1px;
+  color: #fff;
+}
+
+.nav-collapse { background-color: #1b1b1b; }
+.navbar .nav-collapse > li > a {
+  float: none;
+  padding: 13.5px 15px 13.5px;
+  color: #f2f2f2;
+}
+
+.navbar .nav > li > a {
+  float: none;
+  padding: 13.5px 15px 13.5px;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.nav { padding: 0 }
+
+/* 2. Login dropdown
+-------------------------------------------------- */
+.hidden { display: none; visibility: hidden; }
+.loginbox { padding: 10px; padding-bottom: 0px; color: #333333; }
+.user { list-style-type: none; }
+
+.dividermenu {
+  height: 47px;
+  margin: 0 9px;
+  border-left: 1px solid #911909;
+  border-right: 1px solid #fc5d34;
+}
+
+/* 3. Content
+-------------------------------------------------- */
+.content {
+  background: #fafafa url("../img/creamdust.png") repeat;
+  padding: 20px;
+}
+
+.topblocks {
+  background-color: #f2f2f2;
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid #fff;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+.topblocks h3 {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* 4. Footer
+-------------------------------------------------- */
+.footer { color: #fff; padding: 15px; }
+.footer a { text-decoration: none; color: #fff; }
+.footer a:hover { text-decoration: underline; }
+
+.footer h2 {
+  font-size: 16px;
+  color: #d8503a;
+  margin: 0;
+  padding: 0;
+  text-shadow: none;
+}
+
+.footersearch { margin-top: 50px; }
+
+.bottomline a {
+  color: #ccc;
+  font-size: 10px;
+  padding-right: 20px;
+  text-align: right;
+}
+.bottomline a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* 5. Forums */
+.postinfo { background-color: #F0F0F0; padding: 5px; }
+.signature { border-top: 1px solid #E0E0E0; padding: 5px; font-size: 12px; color: #696969; }
+.modbox { background-color: #EDEDED; padding: 5px; border: 1px solid #E3E3E3; }
+
+.forumsection { background-color: #EEEEEE; }
+
+/* 6. Various
+-------------------------------------------------- */
+.centered { text-align: center!important;}
+.vmiddle { vertical-align: middle!important; }
+.label { font-size: 10px; }
+
+img.avatar,img.userphoto { border: 1px #fff solid; outline: 1px #ccc solid; }
+
+blockquote {
+  padding: 8px;
+  border: 1px solid #CCDCE6;
+  background-color: #E9F0F5;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  border-left: 4px solid #CCDCE6;
+  margin-left: 5px;
+  width: auto;
+  color: #616161;
+}
+blockquote p { font-size: 12px; }
+blockquote img { max-width: 100%; }
+
+.width5     { width:5%; }
+.width10    { width:10%; }
+.width15    { width:15%; }
+.width20    { width:20%; }
+.width25    { width:25%; }
+.width30    { width:30%; }
+.width35    { width:35%; }
+.width40    { width:40%; }
+.width45    { width:45%; }
+.width50    { width:50%; }
+.width55    { width:55%; }
+.width60    { width:60%; }
+.width65    { width:65%; }
+.width70    { width:70%; }
+.width75    { width:75%; }
+.width80    { width:80%; }
+.width85    { width:85%; }
+.width90    { width:90%; }
+.width95    { width:95%; }
+.width100   { width:100%; }
+
+.pfs-icons {
+  position: relative;
+  display:block;
+  width: 25%;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  z-index: 1;
+}
+
+.textright { text-align: right; }
+.textleft { text-align: left; }
+
+.headingright {
+  background: url('../img/dlinepat.png');
+  background-repeat: repeat-y;
+  background-position: left;
+  padding-left: 20px;
+}
+
+.contentdivider {
+  background: url('../img/dlinepat.png');
+  background-repeat: repeat;
+  height: 5px;
+}
+
+/* 7. Media queries
+-------------------------------------------------- */
+/* Large desktop */
+@media (min-width: 1200px) {
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .loginbox { color: #fff!important; }
+  .loginlinks li { margin-top: 10px; }
+  .btn { margin: 3px; }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  body { padding: 0; }
+  .yourlogo h1 { margin-top: 70px; font-size: 48px; color: #EDF7FF; text-align: center; }
+  .yourlogo small {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 3;
+    color: #D9D9D9;
+  }
+  .footersearch { margin-top: 25px; }
+  .loginbox { color: #fff!important; }
+  .loginlinks li { margin-top: 10px; }
+  .btn { margin: 3px; }
+  .forumsh4 { font-size: 14px; }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  body { padding: 0; }
+  .content { padding: 10px; }
+  .yourlogo h1 { margin-top: 70px; font-size: 32px; color: #EDF7FF; text-align: center; }
+  .yourlogo small { font-size: 16px; line-height: 2; }
+  .footersearch { margin-top: 25px; }
+  .loginbox { color: #fff!important; }
+  .loginlinks li { margin-top: 10px; }
+  .btn { margin: 3px; }
+}
