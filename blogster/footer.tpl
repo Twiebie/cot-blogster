@@ -15,9 +15,9 @@
     <h2>{PHP.L.blogster_partners}</h2>
     <ul class="unstyled">
       <li><a href="http://www.cotonti.com">Cotonti.com</a></li>
-      <li>Twiebie.com</li>
+      <li><a href="http://www.twiebie.com">Twiebie.com</li>
       <li><a href="https://github.com/Cotonti">GitHub.com</a></li>
-      <li>BitBucket.org</li>
+      <li><a href="https://www.bitbucket.org">BitBucket.org</a></li>
     </ul>
   </div>
 <div class="span">

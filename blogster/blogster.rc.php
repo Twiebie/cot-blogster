@@ -17,6 +17,7 @@ cot_rc_add_file($cfg['themes_dir'].'/'.$usr['theme'].'/css/style.css');
 cot_rc_add_file($cfg['themes_dir'].'/'.$usr['theme'].'/css/system.css');
 cot_rc_add_file($cfg['themes_dir'].'/'.$usr['theme'].'/css/modalbox.css');
 cot_rc_add_file($cfg['themes_dir'].'/'.$usr['theme'].'/css/uniform.default.css');
+
 // JavaScript
 cot_rc_add_file($cfg['themes_dir'].'/'.$usr['theme'].'/js/bootstrap.js');
 cot_rc_add_file($cfg['themes_dir'].'/'.$usr['theme'].'/js/jquery.uniform.js');
