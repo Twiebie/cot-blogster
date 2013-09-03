@@ -1,8 +1,4 @@
 <!-- BEGIN: MAIN -->
-    <script type="text/javascript">
-    var element = document.getElementById("home");
-    element.className = element.className + "active";
-    </script>
     <div class="row-fluid">
         <div class="span4 topblocks">
           <h3>Heading</h3>
